@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Joanna House | Portfolio</title>
+
+<style>
+:root {
+  --navy: #0B2545;
+  --crimson: #9E1B32;
+  --light: #f8f9fb;
+  --gray: #555;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: var(--light);
+  color: #111;
+  line-height: 1.6;
+}
+
+nav {
+  background: white;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+  position: sticky;
+  top: 0;
+}
+
+nav h1 {
+  color: var(--navy);
+  font-size: 1.2rem;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--gray);
+  font-weight: 500;
+}
+
+nav a:hover {
+  color: var(--crimson);
+}
+
+section {
+  padding: 4rem 2rem;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.hero {
+  text-align: center;
+  padding-top: 6rem;
+}
+
+.hero h2 {
+  font-size: 2.5rem;
+  color: var(--navy);
+}
+
+.hero p {
+  margin-top: 1rem;
+  color: var(--gray);
+}
+
+.button {
+  display: inline-block;
+  margin-top: 1.5rem;
+  padding: 0.8rem 1.5rem;
+  background: var(--crimson);
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: 0.3s ease;
+}
+
+.button:hover {
+  background: var(--navy);
+}
+
+.card {
+  background: white;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+  margin-top: 2rem;
+}
+
+h3 {
+  color: var(--navy);
+  margin-bottom: 1rem;
+}
+
+footer {
+  text-align: center;
+  padding: 2rem;
+  margin-top: 3rem;
+  background: white;
+  font-size: 0.9rem;
+  color: var(--gray);
+}
+</style>
+</head>
+
+<body>
+
+<nav>
+  <h1>Joanna House</h1>
+  <ul>
+    <li><a href="#about">About</a></li>
+    <li><a href="#work">Work</a></li>
+    <li><a href="#resume">Resume</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+
+<section class="hero">
+  <h2>Marketing Major | Sports Media Minor</h2>
+  <p>University of Alabama • Class of 2029</p>
+  <a href="#work" class="button">View My Work</a>
+</section>
+
+<section id="about">
+  <h3>About Me</h3>
+  <div class="card">
+    <p>
+      Hi, I’m Joanna House, a marketing major with a minor in sports media at The University of Alabama.
+      I am passionate about storytelling, branding, and connecting audiences with meaningful experiences.
+      My goal is to build a career in sports marketing where creativity and strategy meet.
+    </p>
+    <br>
+    <p>
+      I bring strong communication skills, leadership experience, and customer service expertise from
+      roles in student government and fast-paced work environments. I am especially interested in
+      marketing strategy, digital engagement, and event promotion within the sports industry.
+    </p>
+  </div>
+</section>
+
+<section id="work">
+  <h3>Featured Journalism Work</h3>
+  <div class="card">
+    <h4>Large Turnout for University Programs’ Semiannual Book Fair</h4>
+    <p>
+      A news story covering University Programs’ Welcome Back Weeks event, highlighting student engagement
+      and collaboration with the Tuscaloosa Public Library.
+    </p>
+    <a href="News Story 1.docx" class="button" target="_blank">View Full Story</a>
+  </div>
+</section>
+
+<section id="resume">
+  <h3>Resume</h3>
+  <div class="card">
+    <p>Download my full resume below.</p>
+    <a href="Joanna House Resume.pdf" class="button" target="_blank">Download Resume</a>
+  </div>
+</section>
+
+<section id="contact">
+  <h3>Contact</h3>
+  <div class="card">
+    <p>Email: joanna.house0611@gmail.com</p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/joanna-house" target="_blank">linkedin.com/in/joanna-house</a></p>
+  </div>
+</section>
+
+<footer>
+  © 2026 Joanna House | Built with purpose
+</footer>
+
+</body>
+</html>
